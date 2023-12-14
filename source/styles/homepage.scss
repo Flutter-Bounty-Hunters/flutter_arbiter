@@ -1,0 +1,139 @@
+@import "theme.scss";
+@import "footer.scss";
+
+#header {
+  width: 100vw;
+  height: 100vh;
+
+  .branding {
+    display: inline-block;
+    width: 700px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    // Add empty space to bottom so that we push content up a little bit.
+    padding-bottom: 48px;
+
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+
+    margin: auto;
+    margin-bottom: 12px;
+
+    height: 100px;
+  }
+
+  .title {
+    display: block;
+
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .divider {
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+    width: 400px;
+    height: 1px;
+
+    background: $dividerColor;
+  }
+
+  .description {
+    color: #526277;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .material-symbols-outlined {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 50%);
+
+    font-size: 48px;
+
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  #catalog {
+    max-width: 896px;
+    margin: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+
+    h2 {
+      margin-bottom: 0.5em;
+
+      text-align: center;
+
+      color: #526277;
+      font-size: 42px;
+    }
+
+    hr {
+      height: 1px;
+      background: #526277;
+      border: none;
+    }
+
+    .article-list {
+      margin-bottom: 3em;
+
+      li {
+        margin-bottom: 3em;
+      }
+
+      .article-title {
+        margin-bottom: 0.2em;
+
+        font-size: 28px;
+      }
+
+      .article-description {
+        color: #CCCCCC;
+        line-height: 1.8em;
+      }
+
+      .learn-more {
+        display: block;
+
+        text-align: right;
+      }
+    }
+  }
+}

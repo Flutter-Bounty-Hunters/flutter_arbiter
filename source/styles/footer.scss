@@ -1,0 +1,48 @@
+#footer {
+  padding: 24px;
+
+  text-align: center;
+
+  #followups {
+    display: flex;
+    justify-content: center;
+
+    .followup {
+      display: inline-block;
+
+      text-align: left;
+
+      .title {
+        color: #B9B9B9;
+        font-size: 12px;
+      }
+
+      .divider {
+        width: 100px;
+        height: 1px;
+
+        margin-top: 2px;
+        margin-bottom: 4px;
+
+        background: #3F454D;
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .followup-spacer {
+      width: 96px;
+    }
+  }
+
+  .copyright {
+    display: block;
+    margin-top: 48px;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
