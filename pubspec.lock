@@ -492,9 +492,11 @@ packages:
   static_shock:
     dependency: "direct main"
     description:
-      path: "/Users/matt/Projects/static_shock/packages/static_shock"
-      relative: false
-    source: path
+      path: "packages/static_shock"
+      ref: "66_make-all-pages-available-and-make-them-sortable"
+      resolved-ref: be80ae371f34de8df8a3e4120967bab641c3154f
+      url: "git@github.com:Flutter-Bounty-Hunters/static_shock.git"
+    source: git
     version: "0.0.1"
   stream_channel:
     dependency: transitive

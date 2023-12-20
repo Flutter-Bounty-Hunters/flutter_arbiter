@@ -154,7 +154,7 @@ header {
 
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
-    font-family: 'Junge', cursive;
+    font-family: 'Junge', serif;
     line-height: 1.8em;
 
     code {
@@ -195,12 +195,18 @@ header {
     padding: 2em;
 
     background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
+
+    box-shadow: none; // Remove Prism.js inner shadow
 
     code {
       font-size: 20px;
       font-family: 'Fira Code', monospace;
       line-height: 1.8em;
+
+      text-shadow: none; // Remove Prism.js text shadow
     }
   }
 }
