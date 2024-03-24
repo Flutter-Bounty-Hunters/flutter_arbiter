@@ -4,6 +4,7 @@ description: Learn what different expectations mean in Flutter.
 synopsis: Tests can verify many different details - widget configs, layout, painting, and pixels. 
   Make sure you're verifying what you think you are.
 layout: layouts/article.jinja
+draft: true
 ---
 # Don't Pump and Settle
 

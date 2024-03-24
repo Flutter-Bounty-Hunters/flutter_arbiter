@@ -5,6 +5,7 @@ synopsis: Widget tests render to an invisible Flutter window. This invisible win
   pixel density, and other properties, which can impact your widget tests. Learn how to configure
   those properties.
 layout: layouts/article.jinja
+draft: true
 ---
 # Widget Test Configuration
 

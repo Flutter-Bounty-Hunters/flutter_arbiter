@@ -6,5 +6,6 @@ synopsis: >
   Each type of test includes certain costs and certain benefits. Make sure to choose the right test
   for your use-case.
 layout: layouts/article.jinja
+draft: true
 ---
 # Choosing the Right Test

@@ -5,6 +5,7 @@ synopsis: At a certain point, widget implementation details become counterproduc
   writing process. Consider using test inspector APIs to hide irrelevant implementation details and
   represent test expectations in a way that makes more sense to readers.
 layout: layouts/article.jinja
+draft: true
 ---
 # Test Inspectors
 

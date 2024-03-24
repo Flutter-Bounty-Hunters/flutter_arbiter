@@ -5,5 +5,6 @@ synopsis: Debugging is a tough task. Many developers use a bunch of `print()` st
   print statements quickly become unmanageable. Loggers give you control over log verbosity, and
   control over which logs are active at a given time.
 layout: layouts/article.jinja
+draft: true
 ---
 # Logging

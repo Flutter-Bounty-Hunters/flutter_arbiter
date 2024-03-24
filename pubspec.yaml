@@ -14,7 +14,7 @@ dependency_overrides:
     git:
       url: git@github.com:Flutter-Bounty-Hunters/static_shock.git
       path: packages/static_shock
-      ref: 66_make-all-pages-available-and-make-them-sortable
+      ref: 71_draft-mode
 
 dev_dependencies:
   lints: ^2.0.0

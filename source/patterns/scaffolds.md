@@ -6,5 +6,7 @@ synopsis: A scaffold is a widget with an imposed visual structure, where develop
   of a scaffold is the Material screen scaffold, which can display an app bar, bottom bar,
   drawer, and floating action button.
 layout: layouts/article.jinja
+groupOrder: 6
+draft: true
 ---
 # Scaffolds

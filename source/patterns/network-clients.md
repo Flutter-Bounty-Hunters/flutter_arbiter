@@ -5,5 +5,7 @@ synopsis: A network client is an object that's solely responsible for communicat
   A network client enshrines the sever's API, authentication, authorization, and transport format,
   without worrying about caching, user interfaces, or navigation.
 layout: layouts/article.jinja
+groupOrder: 4
+draft: true
 ---
 # Network Clients

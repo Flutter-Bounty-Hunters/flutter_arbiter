@@ -42,17 +42,33 @@
     <div class="section-divider">&nbsp;</div>
     <main>
       <div id="catalog">
+        {% if pages.byTag("operations")|length > 0 %}
+        <h2>Operations</h2>
+        <hr>
+        <ul class="article-list">
+          {% for page in pages.byTag("operations", sortBy="groupOrder") %}
+          <li>
+            <div class="article-title">{{ page.data["title"] }}</div>
+            <div class="article-description">{{ md(page.data["synopsis"]) }}&nbsp;&nbsp;&nbsp;<a href="{{ page.data["url"] }}">Learn More...</a></div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if pages.byTag("patterns")|length > 0 %}
         <h2>Patterns</h2>
         <hr>
         <ul class="article-list">
-        {% for page in pages.byTag("patterns") %}
+        {% for page in pages.byTag("patterns", sortBy="groupOrder") %}
           <li>
             <div class="article-title">{{ page.data["title"] }}</div>
             <div class="article-description">{{ md(page.data["synopsis"]) }}&nbsp;&nbsp;&nbsp;<a href="{{ page.data["url"] }}">Learn More...</a></div>
           </li>
         {% endfor %}
         </ul>
+        {% endif %}
 
+        {% if pages.byTag("strategies")|length > 0 %}
         <h2>Strategies</h2>
         <hr>
         <ul class="article-list">
@@ -63,7 +79,9 @@
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
 
+        {% if pages.byTag("testing")|length > 0 %}
         <h2>Testing</h2>
         <hr>
         <ul class="article-list">
@@ -74,6 +92,7 @@
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
       </div>
     </main>
 

@@ -5,6 +5,7 @@ synopsis: After a developer writes a few hundred tests in a project, it's tempti
   test behavior into micro frameworks within the project. This is almost always counterproductive.
   A little test verbosity is much better than adding test complexity.
 layout: layouts/article.jinja
+draft: true
 ---
 # No Micro Frameworks
 

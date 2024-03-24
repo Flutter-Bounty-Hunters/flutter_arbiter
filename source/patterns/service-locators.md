@@ -5,6 +5,8 @@ synopsis: Service locators provide access to application behaviors without revea
   behaviors come from, and without revealing their specific implementation. There are many ways to build
   service locators, including InheritedWidgets, State objects, and global definitions.
 layout: layouts/article.jinja
+groupOrder: 5
+draft: true
 ---
 # Service Locators
 

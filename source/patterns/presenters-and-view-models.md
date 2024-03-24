@@ -5,6 +5,8 @@ synopsis: Presenters are objects that expose non-UI application behavior to UI w
   are data structures that provide properties that are specifically designed for widget rendering.
 layout: layouts/article.jinja
 header_image: https://firebasestorage.googleapis.com/v0/b/proflutter-45c26.appspot.com/o/canon%2Fpresenters%2Fpresenters_header.png?alt=media&token=88838055-9c72-46ec-a92e-049fb0a8a5cd
+groupOrder: 2
+draft: true
 ---
 Your app uses networking, databases, and sensors. Your user interface shouldn't be aware of these details. Leaking integrations into your interface makes testing impossible, prevents product demos, and causes developers to interfere with each others' work. Presenters separate your UI from all other application responsibilities, which facilitates tests, demos, and focused development.
  
