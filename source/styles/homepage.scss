@@ -18,6 +18,10 @@
     padding-bottom: 48px;
 
     text-align: center;
+
+    @media (max-width: 599px) {
+      width: 360px;
+    }
   }
 
   .logo {
@@ -35,6 +39,10 @@
     font-size: 42px;
     font-weight: bold;
     line-height: 1;
+
+    @media (max-width: 599px) {
+      font-size: 32px;
+    }
   }
 
   .divider {
@@ -46,12 +54,20 @@
     height: 1px;
 
     background: $dividerColor;
+
+    @media (max-width: 599px) {
+      width: 250px;
+    }
   }
 
   .description {
     color: #526277;
     font-size: 30px;
     line-height: 1.2;
+
+    @media (max-width: 599px) {
+      font-size: 24px;
+    }
   }
 
   .material-symbols-outlined {
@@ -90,11 +106,21 @@ main {
   padding-top: 100px;
   padding-bottom: 100px;
 
+  @media (max-width: 599px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   #catalog {
     max-width: 896px;
     margin: auto;
     padding-left: 48px;
     padding-right: 48px;
+
+    @media (max-width: 599px) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
 
     h2 {
       margin-bottom: 0.5em;
