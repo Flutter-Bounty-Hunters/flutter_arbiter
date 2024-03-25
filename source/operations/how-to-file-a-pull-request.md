@@ -3,7 +3,7 @@ title: How to file a Pull Request
 description: How to file pull requests that your team wants to review.
 synopsis: Code needs to be reviewed before its merged. Learn how to make that process easier on your team.
 layout: layouts/article.jinja
-groupOrder: 5
+groupOrder: 22
 ---
 Changes to code should take place through Pull Requests (PR). When they do, all changes should be reviewed,
 both for technical correctness, as well as an appropriate approach.

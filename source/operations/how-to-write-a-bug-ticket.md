@@ -4,7 +4,7 @@ description: File bugs that your developers can fix.
 synopsis: Fixing bugs requires certain information. Learn how to file bug tickets that developers
   can fix.
 layout: layouts/article.jinja
-groupOrder: 4
+groupOrder: 21
 ---
 There's some advice that applies to [writing all issue tickets](/operations/how-to-write-an-issue-ticket). 
 Bug reports require more specific, actionable information. In the absence of that information, the 

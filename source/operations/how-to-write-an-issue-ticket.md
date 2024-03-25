@@ -4,7 +4,7 @@ description: File issues that your developers can implement.
 synopsis: When you file an issue for a developer to work on, you can make it easy on that developer, or
   you can make it very frustrating.
 layout: layouts/article.jinja
-groupOrder: 3
+groupOrder: 20
 ---
 Issue tickets are a communication tool that's intended to describe an actionable goal, which can
 be accomplished by an assigned developer. As with any communication tool, the person who authors
