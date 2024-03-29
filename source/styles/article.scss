@@ -218,7 +218,7 @@ header {
   }
 
   li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   img {
@@ -240,12 +240,23 @@ header {
 
     box-shadow: none; // Remove Prism.js inner shadow
 
+    @media (max-width: 599px) {
+      margin-left: 0px;
+      margin-right: 0px;
+
+      padding: 0.5em;
+    }
+
     code {
       font-size: 16px;
       font-family: 'Fira Code', monospace;
-      line-height: 2.4em;
+      line-height: 1.5em;
 
       text-shadow: none; // Remove Prism.js text shadow
+
+      @media (max-width: 599px) {
+        font-size: 12px;
+      }
     }
   }
 }
