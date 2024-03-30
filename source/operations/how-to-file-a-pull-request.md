@@ -71,3 +71,41 @@ When words aren't the best way to communicate, use supplemental images and video
 reviewer to understand your code changes.
 
 ![](/images/articles/operations/how-to-file-a-pull-request/description-with-video.png)
+
+## Squash the commits
+A PR represents a single feature, bug, or infrastructure change. But that single change is often
+implemented across a number of intermediate commits.
+
+```
+Author: Me <me@users.noreply.github.com>
+Date:   Fri Mar 29 22:55:20 2024 -0700
+
+    Prototyped the feature
+-----
+Author: Me <me@users.noreply.github.com>
+Date:   Fri Mar 29 22:55:20 2024 -0700
+
+    Cleaned up code
+-----
+Author: Me <me@users.noreply.github.com>
+Date:   Fri Mar 29 22:55:20 2024 -0700
+
+    Added tests
+-----
+Author: Me <me@users.noreply.github.com>
+Date:   Fri Mar 29 22:55:20 2024 -0700
+
+    Getting CI to pass
+```
+
+Do you want all those intermediate commits in your global app history? If you needed to audit your
+commit history, would you be able to make any sense of those commits?
+
+Rather than commit your intermediate development commits, you should squash all of them into one
+commit, and you should carefully author the final commit message.
+
+GitHub makes it easy to squash all of your PR commits into one, and provide a single commit
+message. Make sure to also include the resolved ticket number, e.g., "(Resolves #1234)", which
+automatically closes the associated ticket upon merge.
+
+![](/images/articles/operations/how-to-file-a-pull-request/squash-and-merge.png)
