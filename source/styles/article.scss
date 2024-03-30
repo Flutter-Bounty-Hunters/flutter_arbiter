@@ -19,6 +19,8 @@ h1, h2, h3 {
         display: none;
       }
 
+      position: fixed;
+
       margin-top: 82px;
       margin-left: 82px;
 
@@ -54,6 +56,33 @@ h1, h2, h3 {
 
         border: none;
       }
+
+      .table-of-contents {
+        text-align: left;
+
+        ul, ol {
+          margin: 0;
+          margin-top: 1em;
+          margin-left: 16px;
+
+          padding: 0;
+
+          li {
+            margin-top: 0.5em;
+
+            font-size: 14px;
+
+            a {
+              color: WHITE;
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -69,6 +98,46 @@ main {
   @media (max-width: 599px) {
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  > .table-of-contents {
+    @media (min-width: 1300px) {
+      // Don't show the content-based table of contents when we're showing the left
+      // floating table of contents.
+      display: none;
+    }
+
+    margin-bottom: 2em;
+    padding-bottom: 3em;
+
+    border-bottom: 1px solid $dividerColor;
+
+    text-align: center;
+
+    ul, ol {
+      display: inline-block;
+
+      margin: 0;
+      margin-bottom: 1em;
+
+      padding: 0;
+
+      li {
+        margin-top: 0.5em;
+
+        font-size: 20px;
+        text-align: left;
+
+        a {
+          color: WHITE;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
   }
 }
 
