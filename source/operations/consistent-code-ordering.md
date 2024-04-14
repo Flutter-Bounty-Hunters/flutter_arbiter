@@ -104,6 +104,38 @@ class UserSession with ChangeNotifier {
 }
 ```
 
+## Factories, then named constructors, then the default constructor
+Factory constructors use regular constructors internally. Following the [high level to low level policy](#high-level-to-low-level),
+factory constructors should appear above other constructors.
+
+Named constructors, representing specialized versions of the default constructor, should be declared
+above the default constructor.
+
+```dart
+class Document {
+  factory Document.fromMarkdown(Strig markdown) {/*...*/}
+  
+  Document.withSingleParagraph(String paragraph) : nodes = [/*...*/];
+  
+  Document(this.nodes);
+}
+```
+
+## Properties below constructors
+As per Dart style guidelines, declare properties below constructors.
+
+```dart
+class MyClass {
+  MyClass.named();
+  
+  MyClass();
+  
+  final String property1;
+  final double property2;
+  final bool property3;
+}
+```
+
 ## Stateful widget methods
 Stateful widgets accumulate quite a few responsibilities. They have properties, lifecycle methods,
 interaction methods, and build methods. You should define them in that order. Additionally, you
