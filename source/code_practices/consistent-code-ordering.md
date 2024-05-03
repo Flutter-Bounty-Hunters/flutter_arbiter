@@ -5,6 +5,7 @@ synopsis: Reading code quickly depends upon consistency in coding practices. App
   ordering policies throughout your code for faster reading and easier review.
 layout: layouts/article.jinja
 groupOrder: 11
+redirectFrom: operations/consistent-code-ordering
 ---
 The best way to help developers on your team read code quickly is to establish consistent practices.
 When reviewing code that follows consistent practices, a developer can literally review code as

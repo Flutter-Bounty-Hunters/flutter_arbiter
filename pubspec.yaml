@@ -14,7 +14,6 @@ dependency_overrides:
     git:
       url: https://github.com/Flutter-Bounty-Hunters/static_shock.git
       path: packages/static_shock
-      ref: main
 
 dev_dependencies:
   lints: ^2.0.0

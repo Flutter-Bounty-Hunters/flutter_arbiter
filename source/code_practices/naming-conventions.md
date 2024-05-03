@@ -4,6 +4,7 @@ description: How to name common things in Flutter apps.
 synopsis: Naming is critical for communication, speed, and modeling. This post describes a number of important names to learn and use.
 layout: layouts/article.jinja
 groupOrder: 1
+redirectFrom: operations/naming-conventions
 ---
 
 Names are what bind us in software development. Whether between the members of a team, employees in 

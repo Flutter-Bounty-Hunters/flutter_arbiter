@@ -13,6 +13,7 @@ Future<void> main(List<String> arguments) async {
     ..plugin(const MarkdownPlugin())
     ..plugin(const JinjaPlugin())
     ..plugin(const PrettyUrlsPlugin())
+    ..plugin(const RedirectsPlugin())
     ..plugin(const SassPlugin())
     ..plugin(DraftingPlugin(
       showDrafts: isPreviewMode,

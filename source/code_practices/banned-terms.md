@@ -5,6 +5,7 @@ synopsis: Avoiding bad names is as important as using good names. You should avo
   naming your own app or package classes, methods, and properties.
 layout: layouts/article.jinja
 groupOrder: 2
+redirectFrom: operations/banned-terms
 ---
 Avoiding ambiguous names in software is as important as choosing meaningful names. The following
 is a list of names to avoid in your code.

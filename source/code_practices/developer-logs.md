@@ -7,6 +7,7 @@ synopsis: The most popular debug tool is print statements littered through code.
   with loggers.
 layout: layouts/article.jinja
 groupOrder: 12
+redirectFrom: operations/developer-logs
 ---
 The first thing a developer does when things go wrong is add a `print` statement somewhere
 in the code and then re-run the app. This approach tends to work in the moment, but if you're

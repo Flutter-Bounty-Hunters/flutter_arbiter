@@ -4,6 +4,7 @@ description: Directories and files to create for your app.
 synopsis: Code has to go somewhere. Learn how to breakdown directories and files in an effective way.
 layout: layouts/article.jinja
 groupOrder: 10
+redirectFrom: operations/packaging-code-for-apps
 ---
 To understand the importance of where you place your code, consider daily operations within a
 development team (even a small team). When you begin work on a ticket, you need to locate the code
