@@ -74,7 +74,7 @@
         {% endif %}
 
         {% if pages.byTag("codePractices")|length > 0 %}
-        <h2>Code Patterns</h2>
+        <h2>Logistics</h2>
         <hr>
         <ul class="article-list">
           {% for page in pages.byTag("codePractices", sortBy="groupOrder") %}
@@ -104,6 +104,19 @@
         <hr>
         <ul class="article-list">
           {% for page in pages.byTag("strategies") %}
+          <li>
+            <div class="article-title">{{ page.data["title"] }}</div>
+            <div class="article-description">{{ md(page.data["synopsis"]) }}&nbsp;&nbsp;&nbsp;<a href="{{ page.data["url"] }}">Learn More...</a></div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if pages.byTag("tactics")|length > 0 %}
+        <h2>Tactics</h2>
+        <hr>
+        <ul class="article-list">
+          {% for page in pages.byTag("tactics") %}
           <li>
             <div class="article-title">{{ page.data["title"] }}</div>
             <div class="article-description">{{ md(page.data["synopsis"]) }}&nbsp;&nbsp;&nbsp;<a href="{{ page.data["url"] }}">Learn More...</a></div>
